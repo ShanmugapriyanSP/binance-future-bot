@@ -1,0 +1,23 @@
+trade:
+  market: BNBUSDT
+  leverage: 50
+  trading_periods: 15m
+  margin_type: ISOLATED
+  take_profit: 0.5
+  stop_loss: 0.10
+  next_entry_step: 0.5
+  capital_steps:
+    - 50
+    - 100
+    - 150
+    - 200
+    - 250
+    - 300
+
+binance:
+  api_url: https://fapi.binance.com
+  test_api_url: https://testnet.binancefuture.com/
+  run_type:
+    test_net: true
+
+bot_start_datetime: ""

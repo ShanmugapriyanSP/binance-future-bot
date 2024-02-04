@@ -1,0 +1,7 @@
+trade_log.csv
+.github
+.idea
+logs
+*.env
+__pycache__/*
+*.pyc
